@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" charset="UTF-8" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>列表</title>
+    <script src="//cdn.bootcss.com/vue/2.3.4/vue.js"></script>
+    <script src="//cdn.bootcss.com/vue-router/2.5.3/vue-router.js"></script>
+    <script src="//cdn.bootcss.com/vue-resource/1.3.4/vue-resource.min.js"></script>
+    <link href="/assets/leadapp.css" rel="stylesheet" type="text/css" />
+    <style>
+        body{margin: 0}
+    </style>
+</head>
+<body>
+<div id="app">
+    <transition>
+        <router-view></router-view>
+    </transition>
+    <!--<router-link to="/about">首页</router-link><br>-->
+    <!--<router-link to="/year">按年查询</router-link><br>-->
+    <!--<router-link to="/month">按月查询</router-link><br>-->
+    <!--<router-link to="/day">按天查询</router-link><br>-->
+    <!--<router-link to="/yearOnYear">同比</router-link><br>-->
+    <!--<router-link to="/monthOnMonth">环比</router-link><br>-->
+    <!--<router-link to="/dealer">商户交易明细表</router-link>-->
+</div>
+
+<script src="/assets/leadapp.bundle.js"></script>
+</body>
+</html>
